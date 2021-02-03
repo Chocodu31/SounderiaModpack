@@ -1,0 +1,1702 @@
+[15:20:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:20:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:20:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:20:30] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[15:20:30] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[15:20:30] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Linux:amd64:5.8.0-41-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[15:20:30] [main/DEBUG] [FML]: Java classpath at launch is:
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/bin/jars/NewLaunch.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/mojang/patchy/1.1/patchy-1.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/google/guava/guava/21.0/guava-21.0.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar
+[15:20:30] [main/DEBUG] [FML]: Java library path at launch is:
+[15:20:30] [main/DEBUG] [FML]:     /home/raphael/.local/share/multimc/instances/Sounderia/natives
+[15:20:30] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /home/raphael/.local/share/multimc/libraries
+[15:20:30] [main/DEBUG] [FML]: Cleaning up mods folder: /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 MouseTweaks-2.10-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Moonspire Metropolitan Motors [MTS] 1.10.2-15.5.0-1.1.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: CraftTweaker2-1.12-4.1.20.574.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 eguilib-0.1.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Expanded UNUverse Pack [MTS] 1.12.2-18.0.0-1.3.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 RenderPlayerAPI-1.12.2-1.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Arkif'sHoverboardMod-1.12.2-0.4.1.4.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: YNot-0.2.4.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: AdvancedRocketry-1.12.2-1.7.0-232-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 CTM-MC1.12.2-1.0.2.31.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: MekanismGenerators-1.12.2-9.8.3.390.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 OptiFine_1.12.2_HD_U_F5.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Turbo's Random Vehicles Pack-v1.0.1 mc-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: 1 MixinBootstrap-1.0.5.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: appliedenergistics2-rv6-stable-7.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: UNU Military Pack [MTS] 1.12.2-18.0.0-3.5.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: carryon-1.12.2-1.12.3.15.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 malisiscore-1.12.2-6.5.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Drugs and Psychedelics 1.1.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 Placebo-1.12.2-1.6.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: UniDict-1.12.2-3.0.4.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 foamfix-0.10.10-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ExtraBitManipulation-1.12.2-3.4.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: MTS_Official_Pack_V16.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 VanillaFix-1.0.10-150.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: The_Expanded_Signs_Pack-1.0.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 jei_1.12.2-4.16.1.301.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: mw_2.0-0.4.4.6_mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ItemFilters-1.0.4.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 splashlogofix-1.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: torchmaster_1.12.2-1.8.4.84.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: industrialforegoing-1.12.2-1.12.13-237.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ThermalExpansion-1.12.2-5.5.7.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 mclib-2.0.2-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: OpenComputers-MC1.12.2-1.7.5.192.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: furniture-6.3.1-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: comforts-1.12.2-1.4.1.3.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: EnhancedVisuals_v1.3.20_mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: generators-0.9.20.12-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 CoFHCore-1.12.2-4.6.6.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: MCTImmersiveTechnology-1.12.2-1.8.93.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Pam's HarvestCraft 1.12.2zg.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Clumps-3.1.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Turbo's Parts Pack-v1.0.0 mc-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: malisisdoors-1.12.2-7.3.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: fluxnetworks-1.12.2-4.0.15-32.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: SignPicture-1.12.1-2.8.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: FastFurnace-1.12.2-1.3.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 MTLib-3.0.6.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 tesla-core-lib-1.12.2-1.0.17.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ocxnetdriver-1.0.3-b17.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 konkrete_1.1.0_MC_1.12-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 bdlib-1.14.3.12-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: CosmeticArmorReworked-1.12.2-v5a.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: aunis-1.12.2-1.9.9-beta.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: dipomoneymod-1.2.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: LagGoggles-FAT-1.12.2-4.9.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Draconic-Evolution-1.12.2-2.3.27.353-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: SCP Lockdown-1.12.2-2.3.1-dev.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: CustomNPCs_1.12.2-(05Jul20).jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 AppleSkin-mc1.12-1.0.14.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 zerocore-1.12.2-0.1.2.8.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: modularmachinery-1.12.2-1.11.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: reauth-3.6.0.jar
+[15:20:30] [main/DEBUG] [FML]: Making maven link for technicianlp:reauth:3.6.0 in memory to /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/reauth-3.6.0.jar.
+[15:20:30] [main/DEBUG] [FML]: Examining file: Chunk+Pregenerator-V1.12-2.4.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: FTBMoney-1.2.0.47.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Controlling-3.0.10.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: CasinoCraft_1.12.2_v11.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: techguns-1.12.2-2.0.2.0_pre3.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 mcjtylib-1.12-3.5.4.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: rftools-1.12-7.73.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: simplylight-1.12.2-0.8.7.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 Forgelin-1.8.4.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 LibVulpes-1.12.2-0.4.2-75-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: xnet-1.12-1.8.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: FTBGuides-2.0.0.52.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Modular Augment-1.12.2-1.1.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ImmersiveCables-1.12.2-1.3.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 phosphor-1.12.2-0.2.6+build50-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Making maven link for me.jellysquid.mods:phosphor:1.12.2-0.2.6+build50 in memory to /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 phosphor-1.12.2-0.2.6+build50-universal.jar.
+[15:20:30] [main/DEBUG] [FML]: Examining file: FTBBackups-1.1.0.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: gregtech-1.12.2-1.11.1.632.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: FastWorkbench-1.12.2-1.7.3.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: camera-1.0.10.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 OreLib-1.12.2-3.6.0.1.jar
+[15:20:30] [main/DEBUG] [FML]: Making maven link for org.orecruncher:OreLib:1.12.2-3.6.0.1 in memory to /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 OreLib-1.12.2-3.6.0.1.jar.
+[15:20:30] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-0.12-98.jar
+[15:20:30] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/ImmersiveEngineering-0.12-98-core.jar(blusunrize:ImmersiveEngineering-core:0.12-98) from /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar extracted to /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/ImmersiveEngineering-0.12-98.jar, skipping extraction
+[15:20:30] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-core-0.12-98.jar
+[15:20:30] [main/DEBUG] [FML]: Making maven link for blusunrize:ImmersiveEngineering:0.12-98 in memory to /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/ImmersiveEngineering-0.12-98.jar.
+[15:20:30] [main/DEBUG] [FML]: Examining file: HideNames-1.12.2-1.4.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: modtweaker-4.0.18.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 FTBLib-5.4.7.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 CreativeCore_v1.10.34_mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: cyberware-1.12.2-0.2.11.26.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: SecurityCraft v1.8.20.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Mekanism-1.12.2-9.8.3.390.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Modpack Configuration Checker-1.12.2-v1.9.5.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 base-1.12.2-3.13.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ae2stuff-0.7.0.4-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 itlt-1.12.2-1.0.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: fairylights-2.1.11-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Immersive Vehicles-1.12.2-18.5.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 WanionLib-1.12.2-2.5.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: DAP-2.0.3.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: ContentTweaker-1.12.2-4.9.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: JustBuildIt MC1.12.2 v1.2.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: immersivepetroleum-1.12.2-1.1.9.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: FTBQuests-1202.9.0.15.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: chiselsandbits-14.33.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: UNU Civilian Pack [MTS] 1.12.2-18.0.0-3.5.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: UNU Parts Pack [MTS] 1.12.2-18.0.0-3.5.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: Chisel-MC1.12.2-1.0.2.45.jar
+[15:20:30] [main/DEBUG] [FML]: Examining file: a1 RedstoneFlux-1.12-2.1.1.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: File already proccessed /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/reauth-3.6.0.jar, Skipping
+[15:20:30] [main/DEBUG] [FML]: File already proccessed /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 phosphor-1.12.2-0.2.6+build50-universal.jar, Skipping
+[15:20:30] [main/DEBUG] [FML]: File already proccessed /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 OreLib-1.12.2-3.6.0.1.jar, Skipping
+[15:20:30] [main/DEBUG] [FML]: File already proccessed /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar, Skipping
+[15:20:30] [main/DEBUG] [FML]: File already proccessed /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/ImmersiveEngineering-0.12-98.jar, Skipping
+[15:20:30] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[15:20:30] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[15:20:30] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[15:20:30] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[15:20:30] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[15:20:30] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[15:20:30] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[15:20:30] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[15:20:30] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[15:20:30] [main/DEBUG] [FML]: Discovering coremods
+[15:20:30] [main/INFO] [FML]: Searching /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods for mods
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 MouseTweaks-2.10-mc1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Moonspire Metropolitan Motors [MTS] 1.10.2-15.5.0-1.1.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding CraftTweaker2-1.12-4.1.20.574.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 eguilib-0.1.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Expanded UNUverse Pack [MTS] 1.12.2-18.0.0-1.3.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 RenderPlayerAPI-1.12.2-1.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Arkif'sHoverboardMod-1.12.2-0.4.1.4.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding YNot-0.2.4.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding AdvancedRocketry-1.12.2-1.7.0-232-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 CTM-MC1.12.2-1.0.2.31.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding MekanismGenerators-1.12.2-9.8.3.390.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding CodeChickenLib-1.12.2-3.2.3.358-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 OptiFine_1.12.2_HD_U_F5.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Turbo's Random Vehicles Pack-v1.0.1 mc-1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding 1 MixinBootstrap-1.0.5.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding appliedenergistics2-rv6-stable-7.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding UNU Military Pack [MTS] 1.12.2-18.0.0-3.5.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding carryon-1.12.2-1.12.3.15.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 malisiscore-1.12.2-6.5.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Drugs and Psychedelics 1.1.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 Placebo-1.12.2-1.6.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding UniDict-1.12.2-3.0.4.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 foamfix-0.10.10-1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ExtraBitManipulation-1.12.2-3.4.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding MTS_Official_Pack_V16.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 VanillaFix-1.0.10-150.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding The_Expanded_Signs_Pack-1.0.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 jei_1.12.2-4.16.1.301.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding mw_2.0-0.4.4.6_mc1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ItemFilters-1.0.4.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 splashlogofix-1.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding torchmaster_1.12.2-1.8.4.84.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding industrialforegoing-1.12.2-1.12.13-237.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ThermalExpansion-1.12.2-5.5.7.1-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 mclib-2.0.2-1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding OpenComputers-MC1.12.2-1.7.5.192.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding furniture-6.3.1-1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding comforts-1.12.2-1.4.1.3.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding EnhancedVisuals_v1.3.20_mc1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding generators-0.9.20.12-mc1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 CoFHCore-1.12.2-4.6.6.1-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding MCTImmersiveTechnology-1.12.2-1.8.93.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Pam's HarvestCraft 1.12.2zg.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Clumps-3.1.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Turbo's Parts Pack-v1.0.0 mc-1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding malisisdoors-1.12.2-7.3.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding fluxnetworks-1.12.2-4.0.15-32.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding SignPicture-1.12.1-2.8.1-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding FastFurnace-1.12.2-1.3.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 MTLib-3.0.6.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 tesla-core-lib-1.12.2-1.0.17.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ThermalFoundation-1.12.2-2.6.7.1-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ocxnetdriver-1.0.3-b17.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 konkrete_1.1.0_MC_1.12-1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 bdlib-1.14.3.12-mc1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding CosmeticArmorReworked-1.12.2-v5a.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding aunis-1.12.2-1.9.9-beta.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding dipomoneymod-1.2.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding LagGoggles-FAT-1.12.2-4.9.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Draconic-Evolution-1.12.2-2.3.27.353-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding SCP Lockdown-1.12.2-2.3.1-dev.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding CustomNPCs_1.12.2-(05Jul20).jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 AppleSkin-mc1.12-1.0.14.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 zerocore-1.12.2-0.1.2.8.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding modularmachinery-1.12.2-1.11.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding reauth-3.6.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Chunk+Pregenerator-V1.12-2.4.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding FTBMoney-1.2.0.47.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Controlling-3.0.10.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding CasinoCraft_1.12.2_v11.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding techguns-1.12.2-2.0.2.0_pre3.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 mcjtylib-1.12-3.5.4.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding rftools-1.12-7.73.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding CoFHWorld-1.12.2-1.4.0.1-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding simplylight-1.12.2-0.8.7.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 Forgelin-1.8.4.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 LibVulpes-1.12.2-0.4.2-75-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding xnet-1.12-1.8.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding FTBGuides-2.0.0.52.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Modular Augment-1.12.2-1.1.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ImmersiveCables-1.12.2-1.3.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 phosphor-1.12.2-0.2.6+build50-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding FTBBackups-1.1.0.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding gregtech-1.12.2-1.11.1.632.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding FastWorkbench-1.12.2-1.7.3.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding camera-1.0.10.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 OreLib-1.12.2-3.6.0.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ImmersiveEngineering-0.12-98.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding HideNames-1.12.2-1.4.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding modtweaker-4.0.18.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 FTBLib-5.4.7.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 CreativeCore_v1.10.34_mc1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding cyberware-1.12.2-0.2.11.26.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding SecurityCraft v1.8.20.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Mekanism-1.12.2-9.8.3.390.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Modpack Configuration Checker-1.12.2-v1.9.5.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 base-1.12.2-3.13.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ae2stuff-0.7.0.4-mc1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 itlt-1.12.2-1.0.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding fairylights-2.1.11-1.12.2.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Immersive Vehicles-1.12.2-18.5.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 WanionLib-1.12.2-2.5.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding DAP-2.0.3.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding ContentTweaker-1.12.2-4.9.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding JustBuildIt MC1.12.2 v1.2.1.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding immersivepetroleum-1.12.2-1.1.9.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding FTBQuests-1202.9.0.15.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding chiselsandbits-14.33.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding UNU Civilian Pack [MTS] 1.12.2-18.0.0-3.5.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding UNU Parts Pack [MTS] 1.12.2-18.0.0-3.5.0.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding Chisel-MC1.12.2-1.0.2.45.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]:   Adding a1 RedstoneFlux-1.12-2.1.1.1-universal.jar to the mod list
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy 1 MixinBootstrap-1.0.5.jar
+[15:20:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from 1 MixinBootstrap-1.0.5.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 AppleSkin-mc1.12-1.0.14.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 AppleSkin-mc1.12-1.0.14.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 base-1.12.2-3.13.0.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 base-1.12.2-3.13.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 bdlib-1.14.3.12-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 bdlib-1.14.3.12-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 CoFHCore-1.12.2-4.6.6.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 CoFHCore-1.12.2-4.6.6.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 CreativeCore_v1.10.34_mc1.12.2.jar
+[15:20:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in a1 CreativeCore_v1.10.34_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class CreativePatchingLoader
+[15:20:30] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:30] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[15:20:30] [main/DEBUG] [FML]: Enqueued coremod CreativePatchingLoader
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 CTM-MC1.12.2-1.0.2.31.jar
+[15:20:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in a1 CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class CTMCorePlugin
+[15:20:30] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:30] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[15:20:30] [main/DEBUG] [FML]: Enqueued coremod CTMCorePlugin
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 eguilib-0.1.2.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 eguilib-0.1.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 foamfix-0.10.10-1.12.2.jar
+[15:20:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in a1 foamfix-0.10.10-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class FoamFixCore
+[15:20:30] [main/TRACE] [FML]: coremod named Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) is loading
+[15:20:30] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:30] [main/DEBUG] [FML]: Found signing certificates for coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (pl.asie.foamfix.coremod.FoamFixCore)
+[15:20:30] [main/DEBUG] [FML]: Found certificate 3481f72e377b0a1989bd38e3f07cf4cf0b626475
+[15:20:30] [main/DEBUG] [FML]: Added access transformer class pl.asie.foamfix.coremod.FoamFixAT to enqueued access transformers
+[15:20:30] [main/DEBUG] [FML]: Enqueued coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.)
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 Forgelin-1.8.4.jar
+[15:20:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in a1 Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class ForgelinPlugin
+[15:20:30] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:30] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[15:20:30] [main/DEBUG] [FML]: Enqueued coremod ForgelinPlugin
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 FTBLib-5.4.7.2.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 FTBLib-5.4.7.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 itlt-1.12.2-1.0.2.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 itlt-1.12.2-1.0.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 jei_1.12.2-4.16.1.301.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 jei_1.12.2-4.16.1.301.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 konkrete_1.1.0_MC_1.12-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 konkrete_1.1.0_MC_1.12-1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 LibVulpes-1.12.2-0.4.2-75-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 LibVulpes-1.12.2-0.4.2-75-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 malisiscore-1.12.2-6.5.1.jar
+[15:20:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from a1 malisiscore-1.12.2-6.5.1.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 mcjtylib-1.12-3.5.4.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 mcjtylib-1.12-3.5.4.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 mclib-2.0.2-1.12.2.jar
+[15:20:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in a1 mclib-2.0.2-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class McLibCM
+[15:20:30] [main/TRACE] [FML]: coremod named McLib core mod is loading
+[15:20:30] [main/DEBUG] [FML]: The coremod mchorse.mclib.core.McLibCM requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:30] [main/WARN] [FML]: The coremod McLib core mod (mchorse.mclib.core.McLibCM) is not signed!
+[15:20:30] [main/DEBUG] [FML]: Enqueued coremod McLib core mod
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 MouseTweaks-2.10-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 MouseTweaks-2.10-mc1.12.2.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 MTLib-3.0.6.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 MTLib-3.0.6.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 OptiFine_1.12.2_HD_U_F5.jar
+[15:20:30] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from a1 OptiFine_1.12.2_HD_U_F5.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 Placebo-1.12.2-1.6.0.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 Placebo-1.12.2-1.6.0.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 RedstoneFlux-1.12-2.1.1.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Not found coremod data in a1 RedstoneFlux-1.12-2.1.1.1-universal.jar
+[15:20:30] [main/DEBUG] [FML]: Examining for coremod candidacy a1 RenderPlayerAPI-1.12.2-1.0.jar
+[15:20:30] [main/TRACE] [FML]: Adding a1 RenderPlayerAPI-1.12.2-1.0.jar to the list of known coremods, it will not be examined again
+[15:20:30] [main/DEBUG] [FML]: Instantiating coremod class RenderPlayerAPIPlugin
+[15:20:31] [main/DEBUG] [FML]: The coremod api.player.forge.RenderPlayerAPIPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:31] [main/WARN] [FML]: The coremod RenderPlayerAPIPlugin (api.player.forge.RenderPlayerAPIPlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod RenderPlayerAPIPlugin
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy a1 splashlogofix-1.0.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in a1 splashlogofix-1.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class LoadingPlugin
+[15:20:31] [main/WARN] [FML]: The coremod me.modmuss50.splashlogofix.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:31] [main/WARN] [FML]: The coremod LoadingPlugin (me.modmuss50.splashlogofix.asm.LoadingPlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod LoadingPlugin
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy a1 tesla-core-lib-1.12.2-1.0.17.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in a1 tesla-core-lib-1.12.2-1.0.17.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy a1 VanillaFix-1.0.10-150.jar
+[15:20:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from a1 VanillaFix-1.0.10-150.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy a1 WanionLib-1.12.2-2.5.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in a1 WanionLib-1.12.2-2.5.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy a1 zerocore-1.12.2-0.1.2.8.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in a1 zerocore-1.12.2-0.1.2.8.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy AdvancedRocketry-1.12.2-1.7.0-232-universal.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AdvancedRocketry-1.12.2-1.7.0-232-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class AdvancedRocketryPlugin
+[15:20:31] [main/DEBUG] [FML]: The coremod zmaster587.advancedRocketry.asm.AdvancedRocketryPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:31] [main/WARN] [FML]: The coremod AdvancedRocketryPlugin (zmaster587.advancedRocketry.asm.AdvancedRocketryPlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod AdvancedRocketryPlugin
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ae2stuff-0.7.0.4-mc1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ae2stuff-0.7.0.4-mc1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy appliedenergistics2-rv6-stable-7.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in appliedenergistics2-rv6-stable-7.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Arkif'sHoverboardMod-1.12.2-0.4.1.4.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Arkif'sHoverboardMod-1.12.2-0.4.1.4.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy aunis-1.12.2-1.9.9-beta.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in aunis-1.12.2-1.9.9-beta.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy camera-1.0.10.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in camera-1.0.10.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy carryon-1.12.2-1.12.3.15.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in carryon-1.12.2-1.12.3.15.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy CasinoCraft_1.12.2_v11.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in CasinoCraft_1.12.2_v11.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Chisel-MC1.12.2-1.0.2.45.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Chisel-MC1.12.2-1.0.2.45.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy chiselsandbits-14.33.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in chiselsandbits-14.33.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Chunk+Pregenerator-V1.12-2.4.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Chunk+Pregenerator-V1.12-2.4.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Clumps-3.1.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Clumps-3.1.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy comforts-1.12.2-1.4.1.3.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in comforts-1.12.2-1.4.1.3.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ContentTweaker-1.12.2-4.9.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ContentTweaker-1.12.2-4.9.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Controlling-3.0.10.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Controlling-3.0.10.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy CosmeticArmorReworked-1.12.2-v5a.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in CosmeticArmorReworked-1.12.2-v5a.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy CraftTweaker2-1.12-4.1.20.574.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in CraftTweaker2-1.12-4.1.20.574.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy CustomNPCs_1.12.2-(05Jul20).jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in CustomNPCs_1.12.2-(05Jul20).jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy cyberware-1.12.2-0.2.11.26.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in cyberware-1.12.2-0.2.11.26.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy DAP-2.0.3.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in DAP-2.0.3.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy dipomoneymod-1.2.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in dipomoneymod-1.2.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Draconic-Evolution-1.12.2-2.3.27.353-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Draconic-Evolution-1.12.2-2.3.27.353-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Drugs and Psychedelics 1.1.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Drugs and Psychedelics 1.1.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy EnhancedVisuals_v1.3.20_mc1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Expanded UNUverse Pack [MTS] 1.12.2-18.0.0-1.3.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Expanded UNUverse Pack [MTS] 1.12.2-18.0.0-1.3.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ExtraBitManipulation-1.12.2-3.4.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ExtraBitManipulation-1.12.2-3.4.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy fairylights-2.1.11-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in fairylights-2.1.11-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy FastFurnace-1.12.2-1.3.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in FastFurnace-1.12.2-1.3.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy FastWorkbench-1.12.2-1.7.3.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in FastWorkbench-1.12.2-1.7.3.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy fluxnetworks-1.12.2-4.0.15-32.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in fluxnetworks-1.12.2-4.0.15-32.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy FTBBackups-1.1.0.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in FTBBackups-1.1.0.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy FTBGuides-2.0.0.52.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in FTBGuides-2.0.0.52.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy FTBMoney-1.2.0.47.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in FTBMoney-1.2.0.47.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy FTBQuests-1202.9.0.15.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in FTBQuests-1202.9.0.15.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy furniture-6.3.1-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in furniture-6.3.1-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy generators-0.9.20.12-mc1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in generators-0.9.20.12-mc1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy gregtech-1.12.2-1.11.1.632.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in gregtech-1.12.2-1.11.1.632.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class GTCELoadingPlugin
+[15:20:31] [main/TRACE] [FML]: coremod named GTCELoadingPlugin is loading
+[15:20:31] [main/DEBUG] [FML]: The coremod gregtech.common.asm.GTCELoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:31] [main/WARN] [FML]: The coremod GTCELoadingPlugin (gregtech.common.asm.GTCELoadingPlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod GTCELoadingPlugin
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy HideNames-1.12.2-1.4.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in HideNames-1.12.2-1.4.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Immersive Vehicles-1.12.2-18.5.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Immersive Vehicles-1.12.2-18.5.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ImmersiveCables-1.12.2-1.3.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ImmersiveCables-1.12.2-1.3.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy immersivepetroleum-1.12.2-1.1.9.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in immersivepetroleum-1.12.2-1.1.9.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy industrialforegoing-1.12.2-1.12.13-237.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in industrialforegoing-1.12.2-1.12.13-237.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ItemFilters-1.0.4.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ItemFilters-1.0.4.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy JustBuildIt MC1.12.2 v1.2.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in JustBuildIt MC1.12.2 v1.2.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy LagGoggles-FAT-1.12.2-4.9.jar
+[15:20:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from LagGoggles-FAT-1.12.2-4.9.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy malisisdoors-1.12.2-7.3.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in malisisdoors-1.12.2-7.3.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy MCTImmersiveTechnology-1.12.2-1.8.93.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in MCTImmersiveTechnology-1.12.2-1.8.93.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Mekanism-1.12.2-9.8.3.390.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Mekanism-1.12.2-9.8.3.390.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class MekanismCoremod
+[15:20:31] [main/WARN] [FML]: The coremod mekanism.coremod.MekanismCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:31] [main/WARN] [FML]: The coremod MekanismCoremod (mekanism.coremod.MekanismCoremod) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod MekanismCoremod
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy MekanismGenerators-1.12.2-9.8.3.390.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in MekanismGenerators-1.12.2-9.8.3.390.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Modpack Configuration Checker-1.12.2-v1.9.5.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Modpack Configuration Checker-1.12.2-v1.9.5.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy modtweaker-4.0.18.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in modtweaker-4.0.18.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Modular Augment-1.12.2-1.1.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Modular Augment-1.12.2-1.1.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy modularmachinery-1.12.2-1.11.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in modularmachinery-1.12.2-1.11.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Moonspire Metropolitan Motors [MTS] 1.10.2-15.5.0-1.1.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Moonspire Metropolitan Motors [MTS] 1.10.2-15.5.0-1.1.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy MTS_Official_Pack_V16.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in MTS_Official_Pack_V16.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy mw_2.0-0.4.4.6_mc1.12.2.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in mw_2.0-0.4.4.6_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class WeaponlibCorePlugin
+[15:20:31] [main/TRACE] [FML]: coremod named weaponlib is loading
+[15:20:31] [main/DEBUG] [FML]: The coremod com.vicmatskiv.weaponlib.core.WeaponlibCorePlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:31] [main/WARN] [FML]: The coremod weaponlib (com.vicmatskiv.weaponlib.core.WeaponlibCorePlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod weaponlib
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ocxnetdriver-1.0.3-b17.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ocxnetdriver-1.0.3-b17.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy OpenComputers-MC1.12.2-1.7.5.192.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenComputers-MC1.12.2-1.7.5.192.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class TransformerLoader
+[15:20:31] [main/WARN] [FML]: The coremod li.cil.oc.common.launch.TransformerLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:31] [main/WARN] [FML]: The coremod TransformerLoader (li.cil.oc.common.launch.TransformerLoader) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod TransformerLoader
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Pam's HarvestCraft 1.12.2zg.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Pam's HarvestCraft 1.12.2zg.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy rftools-1.12-7.73.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in rftools-1.12-7.73.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy SCP Lockdown-1.12.2-2.3.1-dev.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in SCP Lockdown-1.12.2-2.3.1-dev.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy SecurityCraft v1.8.20.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in SecurityCraft v1.8.20.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy SignPicture-1.12.1-2.8.1-universal.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SignPicture-1.12.1-2.8.1-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class SignPictureCorePlugin
+[15:20:31] [main/WARN] [FML]: The coremod com.kamesuta.mc.signpic.asm.SignPictureCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:31] [main/WARN] [FML]: The coremod SignPictureCorePlugin (com.kamesuta.mc.signpic.asm.SignPictureCorePlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod SignPictureCorePlugin
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy simplylight-1.12.2-0.8.7.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in simplylight-1.12.2-0.8.7.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy techguns-1.12.2-2.0.2.0_pre3.2.jar
+[15:20:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in techguns-1.12.2-2.0.2.0_pre3.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class TechgunsFMLPlugin
+[15:20:31] [main/TRACE] [FML]: coremod named Techguns Core is loading
+[15:20:31] [main/DEBUG] [FML]: The coremod techguns.core.TechgunsFMLPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:31] [main/WARN] [FML]: The coremod Techguns Core (techguns.core.TechgunsFMLPlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod Techguns Core
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy The_Expanded_Signs_Pack-1.0.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in The_Expanded_Signs_Pack-1.0.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ThermalExpansion-1.12.2-5.5.7.1-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ThermalExpansion-1.12.2-5.5.7.1-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy torchmaster_1.12.2-1.8.4.84.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in torchmaster_1.12.2-1.8.4.84.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Turbo's Parts Pack-v1.0.0 mc-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Turbo's Parts Pack-v1.0.0 mc-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy Turbo's Random Vehicles Pack-v1.0.1 mc-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in Turbo's Random Vehicles Pack-v1.0.1 mc-1.12.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy UniDict-1.12.2-3.0.4.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in UniDict-1.12.2-3.0.4.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy UNU Civilian Pack [MTS] 1.12.2-18.0.0-3.5.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in UNU Civilian Pack [MTS] 1.12.2-18.0.0-3.5.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy UNU Military Pack [MTS] 1.12.2-18.0.0-3.5.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in UNU Military Pack [MTS] 1.12.2-18.0.0-3.5.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy UNU Parts Pack [MTS] 1.12.2-18.0.0-3.5.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in UNU Parts Pack [MTS] 1.12.2-18.0.0-3.5.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy xnet-1.12-1.8.2.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in xnet-1.12-1.8.2.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy YNot-0.2.4.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in YNot-0.2.4.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy reauth-3.6.0.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in reauth-3.6.0.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy a1 phosphor-1.12.2-0.2.6+build50-universal.jar
+[15:20:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from a1 phosphor-1.12.2-0.2.6+build50-universal.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy a1 OreLib-1.12.2-3.6.0.1.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in a1 OreLib-1.12.2-3.6.0.1.jar
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ImmersiveEngineering-core-0.12-98.jar
+[15:20:31] [main/TRACE] [FML]: Adding ImmersiveEngineering-core-0.12-98.jar to the list of known coremods, it will not be examined again
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class IELoadingPlugin
+[15:20:31] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:31] [main/WARN] [FML]: The coremod IELoadingPlugin (blusunrize.immersiveengineering.common.asm.IELoadingPlugin) is not signed!
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod IELoadingPlugin
+[15:20:31] [main/DEBUG] [FML]: Examining for coremod candidacy ImmersiveEngineering-0.12-98.jar
+[15:20:31] [main/DEBUG] [FML]: Not found coremod data in ImmersiveEngineering-0.12-98.jar
+[15:20:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:20:31] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[15:20:31] [main/DEBUG] [mixin]: Mixin bootstrap service org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap is not available: ModLauncher is not available
+[15:20:31] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@7d4991ad
+[15:20:31] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar Service=LaunchWrapper Env=CLIENT
+[15:20:31] [main/DEBUG] [mixin]: Error cleaning class output directory: .mixin.out
+[15:20:31] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #1
+[15:20:31] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
+[15:20:31] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/bin/jars/NewLaunch.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/patchy/1.1/patchy-1.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/google/guava/guava/21.0/guava-21.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20CreativeCore_v1.10.34_mc1.12.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20CTM-MC1.12.2-1.0.2.31.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20foamfix-0.10.10-1.12.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20Forgelin-1.8.4.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20mclib-2.0.2-1.12.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20OptiFine_1.12.2_HD_U_F5.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20RenderPlayerAPI-1.12.2-1.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20splashlogofix-1.0.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/AdvancedRocketry-1.12.2-1.7.0-232-universal.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/gregtech-1.12.2-1.11.1.632.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/Mekanism-1.12.2-9.8.3.390.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/mw_2.0-0.4.4.6_mc1.12.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/OpenComputers-MC1.12.2-1.7.5.192.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/SignPicture-1.12.1-2.8.1-universal.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/techguns-1.12.2-2.0.2.0_pre3.2.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar for mixin tweaker
+[15:20:31] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:31] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for a1 malisiscore-1.12.2-6.5.1.jar, attempting force-load
+[15:20:31] [main/DEBUG] [mixin]: Adding a1 malisiscore-1.12.2-6.5.1.jar to reparseable coremod collection
+[15:20:31] [main/DEBUG] [mixin]: a1 malisiscore-1.12.2-6.5.1.jar has core plugin net.malisis.core.asm.MalisisCorePlugin. Injecting it into FML for co-initialisation:
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class MalisisCorePlugin
+[15:20:31] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:20:31] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[15:20:31] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[15:20:31] [main/DEBUG] [FML]: Enqueued coremod MalisisCorePlugin
+[15:20:31] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:31] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:31] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:31] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:31] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for a1 VanillaFix-1.0.10-150.jar, attempting force-load
+[15:20:31] [main/DEBUG] [mixin]: Adding a1 VanillaFix-1.0.10-150.jar to reparseable coremod collection
+[15:20:31] [main/DEBUG] [mixin]: a1 VanillaFix-1.0.10-150.jar has core plugin org.dimdev.vanillafix.VanillaFixLoadingPlugin. Injecting it into FML for co-initialisation:
+[15:20:31] [main/DEBUG] [FML]: Instantiating coremod class VanillaFixLoadingPlugin
+[15:20:31] [main/INFO] [VanillaFix]: Initializing VanillaFix
+[15:20:31] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]
+[15:20:31] [main/INFO] [VanillaFix]: Initializing StacktraceDeobfuscator
+[15:20:31] [main/INFO] [VanillaFix]: Downloading MCP method mappings to: methods-stable_39.csv
+[15:20:32] [main/INFO] [VanillaFix]: Done initializing StacktraceDeobfuscator
+[15:20:32] [main/INFO] [VanillaFix]: Initializing Bug Fix Mixins
+[15:20:32] [main/INFO] [VanillaFix]: Initializing Crash Fix Mixins
+[15:20:32] [main/INFO] [VanillaFix]: Initializing Profiler Improvement Mixins
+[15:20:32] [main/INFO] [VanillaFix]: Initializing Texture Fix Mixins
+[15:20:32] [main/INFO] [VanillaFix]: Initializing Mod Support Mixins
+[15:20:32] [main/DEBUG] [FML]: The coremod org.dimdev.vanillafix.VanillaFixLoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:32] [main/WARN] [FML]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[15:20:32] [main/DEBUG] [FML]: Enqueued coremod VanillaFixLoadingPlugin
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:32] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for LagGoggles-FAT-1.12.2-4.9.jar, attempting force-load
+[15:20:32] [main/DEBUG] [mixin]: Adding LagGoggles-FAT-1.12.2-4.9.jar to reparseable coremod collection
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:32] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for a1 phosphor-1.12.2-0.2.6+build50-universal.jar, attempting force-load
+[15:20:32] [main/DEBUG] [mixin]: Adding a1 phosphor-1.12.2-0.2.6+build50-universal.jar to reparseable coremod collection
+[15:20:32] [main/DEBUG] [mixin]: a1 phosphor-1.12.2-0.2.6+build50-universal.jar has core plugin me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin. Injecting it into FML for co-initialisation:
+[15:20:32] [main/DEBUG] [FML]: Instantiating coremod class PhosphorFMLLoadingPlugin
+[15:20:32] [main/DEBUG] [FML]: The coremod me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[15:20:32] [main/DEBUG] [FML]: Found signing certificates for coremod PhosphorFMLLoadingPlugin (me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin)
+[15:20:32] [main/DEBUG] [FML]: Found certificate f0387d288626cc2d937daa504e74af570c52a2f1
+[15:20:32] [main/DEBUG] [FML]: Enqueued coremod PhosphorFMLLoadingPlugin
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:32] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:20:32] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[15:20:32] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:20:32] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:20:32] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[15:20:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:20:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:20:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:20:32] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[15:20:32] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[15:20:32] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[15:20:32] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[15:20:32] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 OptiFine_1.12.2_HD_U_F5.jar
+[15:20:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:32] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[15:20:32] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:32] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[15:20:32] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:32] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:32] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:32] [main/DEBUG] [FML]: Injection complete
+[15:20:32] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[15:20:32] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[15:20:34] [main/DEBUG] [FML]: Read 1154 binary patches
+[15:20:34] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[15:20:36] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[15:20:36] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod CreativePatchingLoader \{com.creativemd.creativecore.core.CreativePatchingLoader\} class transformers
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for CreativePatchingLoader \{com.creativemd.creativecore.core.CreativePatchingLoader\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin CreativePatchingLoader
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class CreativePatchingLoader run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod ForgelinPlugin \{net.shadowfacts.forgelin.preloader.ForgelinPlugin\} class transformers
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for ForgelinPlugin \{net.shadowfacts.forgelin.preloader.ForgelinPlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin ForgelinPlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class ForgelinPlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod RenderPlayerAPIPlugin \{api.player.forge.RenderPlayerAPIPlugin\} class transformers
+[15:20:36] [main/TRACE] [FML]: Registering transformer api.player.forge.RenderPlayerAPITransformer
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for RenderPlayerAPIPlugin \{api.player.forge.RenderPlayerAPIPlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin RenderPlayerAPIPlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class RenderPlayerAPIPlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod LoadingPlugin \{me.modmuss50.splashlogofix.asm.LoadingPlugin\} class transformers
+[15:20:36] [main/TRACE] [FML]: Registering transformer me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for LoadingPlugin \{me.modmuss50.splashlogofix.asm.LoadingPlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin LoadingPlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class LoadingPlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod AdvancedRocketryPlugin \{zmaster587.advancedRocketry.asm.AdvancedRocketryPlugin\} class transformers
+[15:20:36] [main/TRACE] [FML]: Registering transformer zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for AdvancedRocketryPlugin \{zmaster587.advancedRocketry.asm.AdvancedRocketryPlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin AdvancedRocketryPlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class AdvancedRocketryPlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod weaponlib \{com.vicmatskiv.weaponlib.core.WeaponlibCorePlugin\} class transformers
+[15:20:36] [main/TRACE] [FML]: Registering transformer com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for weaponlib \{com.vicmatskiv.weaponlib.core.WeaponlibCorePlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin weaponlib
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class WeaponlibCorePlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod SignPictureCorePlugin \{com.kamesuta.mc.signpic.asm.SignPictureCorePlugin\} class transformers
+[15:20:36] [main/TRACE] [FML]: Registering transformer com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for SignPictureCorePlugin \{com.kamesuta.mc.signpic.asm.SignPictureCorePlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin SignPictureCorePlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class SignPictureCorePlugin run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Registering mixin config: mixins.malisiscore.core.json
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Registering mixin config: mixins.laggoggles.json
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/bin/jars/NewLaunch.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/patchy/1.1/patchy-1.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/google/guava/guava/21.0/guava-21.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/libraries/com/mojang/minecraft/1.12.2/minecraft-1.12.2-client.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20CreativeCore_v1.10.34_mc1.12.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20CTM-MC1.12.2-1.0.2.31.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20foamfix-0.10.10-1.12.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20Forgelin-1.8.4.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20mclib-2.0.2-1.12.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20OptiFine_1.12.2_HD_U_F5.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20RenderPlayerAPI-1.12.2-1.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20splashlogofix-1.0.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/AdvancedRocketry-1.12.2-1.7.0-232-universal.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/gregtech-1.12.2-1.11.1.632.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/Mekanism-1.12.2-9.8.3.390.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/mw_2.0-0.4.4.6_mc1.12.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/OpenComputers-MC1.12.2-1.7.5.192.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/SignPicture-1.12.1-2.8.1-universal.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/techguns-1.12.2-2.0.2.0_pre3.2.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Scanning asmgen:/ for mixin tweaker
+[15:20:36] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)
+[15:20:36] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:36] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:36] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)
+[15:20:36] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:36] [main/DEBUG] [mixin]: inject() running with 5 agents
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/1%20MixinBootstrap-1.0.5.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)]
+[15:20:36] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance MalisisCorePlugin {[]} for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod MalisisCorePlugin \{net.malisis.core.asm.MalisisCorePlugin\} class transformers
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for MalisisCorePlugin \{net.malisis.core.asm.MalisisCorePlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin MalisisCorePlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class MalisisCorePlugin run successfully
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20malisiscore-1.12.2-6.5.1.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)]
+[15:20:36] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance VanillaFixLoadingPlugin {[]} for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod VanillaFixLoadingPlugin \{org.dimdev.vanillafix.VanillaFixLoadingPlugin\} class transformers
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for VanillaFixLoadingPlugin \{org.dimdev.vanillafix.VanillaFixLoadingPlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin VanillaFixLoadingPlugin
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class VanillaFixLoadingPlugin run successfully
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20VanillaFix-1.0.10-150.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar)]
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)]
+[15:20:36] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance PhosphorFMLLoadingPlugin {[]} for ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod PhosphorFMLLoadingPlugin \{me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin\} class transformers
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for PhosphorFMLLoadingPlugin \{me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin PhosphorFMLLoadingPlugin
+[15:20:36] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[15:20:36] [main/DEBUG] [Phosphor Forge Core]: Success! Phosphor has been called into from Forge... initializing Mixin environment and configurations
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class PhosphorFMLLoadingPlugin run successfully
+[15:20:36] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1%20phosphor-1.12.2-0.2.6+build50-universal.jar)]
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:36] [main/DEBUG] [FML]: Injecting coremod McLib core mod \{mchorse.mclib.core.McLibCM\} class transformers
+[15:20:36] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[15:20:36] [main/TRACE] [FML]: Registering transformer mchorse.mclib.core.McLibCMClassTransformer
+[15:20:36] [main/DEBUG] [FML]: Injection complete
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin for McLib core mod \{mchorse.mclib.core.McLibCM\}
+[15:20:36] [main/DEBUG] [FML]: Running coremod plugin McLib core mod
+[15:20:36] [main/DEBUG] [FML]: Coremod plugin class McLibCM run successfully
+[15:20:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:20:36] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[15:20:36] [main/DEBUG] [FML]: Loaded 17 rules from AccessTransformer config file foamfix_runtime_at.cfg
+[15:20:36] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 jei_1.12.2-4.16.1.301.jar!META-INF/jei_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 7 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/rftools-1.12-7.73.jar!META-INF/rftools_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 29 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/ImmersiveEngineering-0.12-98.jar!META-INF/ImmersiveEngineering_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 14 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/Mekanism-1.12.2-9.8.3.390.jar!META-INF/mekanism_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 9 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/OpenComputers-MC1.12.2-1.7.5.192.jar!META-INF/oc_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 9 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/Controlling-3.0.10.jar!META-INF/controlling_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 46 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar!META-INF/ccl_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/FastFurnace-1.12.2-1.3.1.jar!META-INF/fastfurnace_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 17 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/Arkif'sHoverboardMod-1.12.2-0.4.1.4.jar!META-INF/hoverboardmod_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 8 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/Chisel-MC1.12.2-1.0.2.45.jar!META-INF/chisel_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 7 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/chiselsandbits-14.33.jar!META-INF/chiselsandbits_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 21 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/gregtech-1.12.2-1.11.1.632.jar!META-INF/gregtech_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 3 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 phosphor-1.12.2-0.2.6+build50-universal.jar!META-INF/phosphor_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 15 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 VanillaFix-1.0.10-150.jar!META-INF/vanillafix_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 4 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 Placebo-1.12.2-1.6.0.jar!META-INF/placebo_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/appliedenergistics2-rv6-stable-7.jar!META-INF/appeng_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 14 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 malisiscore-1.12.2-6.5.1.jar!META-INF/malisiscore_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 18 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 FTBLib-5.4.7.2.jar!META-INF/ftblib_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 10 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/cyberware-1.12.2-0.2.11.26.jar!META-INF/cyberware_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 5 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 CTM-MC1.12.2-1.0.2.31.jar!META-INF/ctm_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 5 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/CosmeticArmorReworked-1.12.2-v5a.jar!META-INF/cosmeticarmorreworked_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 8 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/FastWorkbench-1.12.2-1.7.3.jar!META-INF/fastbench_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 mcjtylib-1.12-3.5.4.jar!META-INF/mcjtylib_ng_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 12 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/CraftTweaker2-1.12-4.1.20.574.jar!META-INF/crafttweaker_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 37 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/Draconic-Evolution-1.12.2-2.3.27.353-universal.jar!META-INF/DraconicEvolution_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 45 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 CoFHCore-1.12.2-4.6.6.1-universal.jar!META-INF/cofh_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/a1 eguilib-0.1.2.jar!META-INF/eguilib_at.cfg
+
+[15:20:36] [main/DEBUG] [FML]: Loaded 9 rules from AccessTransformer mod jar file /home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/CustomNPCs_1.12.2-(05Jul20).jar!META-INF/cnpcs_at.cfg
+
+[15:20:36] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #2
+[15:20:36] [main/DEBUG] [FML]: Validating minecraft
+[15:20:36] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[INIT]
+[15:20:36] [main/DEBUG] [mixin]: Selecting config mixins.vanillafix.modsupport.json
+[15:20:36] [main/DEBUG] [mixin]: Preparing mixins.vanillafix.modsupport.json (1)
+[15:20:36] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:36] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[15:20:36] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    optifine.OptiFineClassTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.api.player.forge.RenderPlayerAPITransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[15:20:36] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:36] [main/DEBUG] [mixin]: Transformer delegation list created with 19 entries
+[15:20:36] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/Loader to metadata cache
+[15:20:37] [main/DEBUG] [mixin]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[15:20:37] [main/DEBUG] [mixin]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[15:20:37] [main/DEBUG] [mixin]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[15:20:37] [main/DEBUG] [mixin]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[15:20:37] [main/DEBUG] [mixin]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[15:20:37] [main/DEBUG] [mixin]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[15:20:37] [main/DEBUG] [mixin]: Mixing MixinLoader from mixins.vanillafix.modsupport.json into net.minecraftforge.fml.common.Loader
+[15:20:37] [main/DEBUG] [mixin]: Renaming synthetic method lambda$beforeConstructingMods$0(Lnet/minecraft/launchwrapper/IClassTransformer;)Z to md7ba1a5$lambda$beforeConstructingMods$0$0 in mixins.vanillafix.modsupport.json:MixinLoader
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/List to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/Iterator to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/ModContainer to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/ModClassLoader to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/RuntimeException to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/Exception to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/Throwable to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/io/Serializable to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/VanillaFixLoadingPlugin to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/LoadingConfig to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/Mixins to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for net/minecraft/launchwrapper/Launch to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for net/minecraft/launchwrapper/LaunchClassLoader to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/Collection to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/stream/Stream to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/Optional to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/Class to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/reflect/AnnotatedElement to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/reflect/GenericDeclaration to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/reflect/Type to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/reflect/Field to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/reflect/AccessibleObject to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/reflect/Method to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/reflect/Executable to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/MixinEnvironment to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/util/ITokenProvider to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/net/MalformedURLException to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/lang/ReflectiveOperationException to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/transformer/Proxy to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/function/Predicate to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for net/minecraft/launchwrapper/IClassTransformer to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/transformer/MixinProcessor to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/toposort/ModSorter to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for com/google/common/collect/ImmutableList to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for com/google/common/collect/ImmutableCollection to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/AbstractCollection to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/io/InputStream to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/Properties to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/Hashtable to metadata cache
+[15:20:37] [main/TRACE] [mixin]: Added class metadata for java/util/Dictionary to metadata cache
+[15:20:37] [main/DEBUG] [FML]: Minecraft validated, launching...
+[15:20:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:37] [main/DEBUG] [FML]: Injecting coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) \{pl.asie.foamfix.coremod.FoamFixCore\} class transformers
+[15:20:37] [main/TRACE] [FML]: Registering transformer pl.asie.foamfix.coremod.FoamFixTransformer
+[15:20:37] [main/DEBUG] [FML]: Injection complete
+[15:20:37] [main/DEBUG] [FML]: Running coremod plugin for Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) \{pl.asie.foamfix.coremod.FoamFixCore\}
+[15:20:37] [main/DEBUG] [FML]: Running coremod plugin Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.)
+[15:20:38] [main/DEBUG] [FML]: Coremod plugin class FoamFixCore run successfully
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:38] [main/DEBUG] [FML]: Injecting coremod GTCELoadingPlugin \{gregtech.common.asm.GTCELoadingPlugin\} class transformers
+[15:20:38] [main/TRACE] [FML]: Registering transformer gregtech.common.asm.GTCETransformer
+[15:20:38] [main/DEBUG] [FML]: Injection complete
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin for GTCELoadingPlugin \{gregtech.common.asm.GTCELoadingPlugin\}
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin GTCELoadingPlugin
+[15:20:38] [main/DEBUG] [FML]: Coremod plugin class GTCELoadingPlugin run successfully
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:38] [main/DEBUG] [FML]: Injecting coremod TransformerLoader \{li.cil.oc.common.launch.TransformerLoader\} class transformers
+[15:20:38] [main/TRACE] [FML]: Registering transformer li.cil.oc.common.asm.ClassTransformer
+[15:20:38] [main/DEBUG] [FML]: Injection complete
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin for TransformerLoader \{li.cil.oc.common.launch.TransformerLoader\}
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin TransformerLoader
+[15:20:38] [main/DEBUG] [FML]: Coremod plugin class TransformerLoader run successfully
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:38] [main/DEBUG] [FML]: Injecting coremod IELoadingPlugin \{blusunrize.immersiveengineering.common.asm.IELoadingPlugin\} class transformers
+[15:20:38] [main/TRACE] [FML]: Registering transformer blusunrize.immersiveengineering.common.asm.IEClassTransformer
+[15:20:38] [main/DEBUG] [FML]: Injection complete
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin for IELoadingPlugin \{blusunrize.immersiveengineering.common.asm.IELoadingPlugin\}
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin IELoadingPlugin
+[15:20:38] [main/DEBUG] [FML]: Coremod plugin class IELoadingPlugin run successfully
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:38] [main/DEBUG] [FML]: Injecting coremod MekanismCoremod \{mekanism.coremod.MekanismCoremod\} class transformers
+[15:20:38] [main/TRACE] [FML]: Registering transformer mekanism.coremod.KeybindingMigrationHelper
+[15:20:38] [main/DEBUG] [FML]: Injection complete
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin for MekanismCoremod \{mekanism.coremod.MekanismCoremod\}
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin MekanismCoremod
+[15:20:38] [main/DEBUG] [FML]: Coremod plugin class MekanismCoremod run successfully
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:38] [main/DEBUG] [FML]: Injecting coremod CTMCorePlugin \{team.chisel.ctm.client.asm.CTMCorePlugin\} class transformers
+[15:20:38] [main/TRACE] [FML]: Registering transformer team.chisel.ctm.client.asm.CTMTransformer
+[15:20:38] [main/DEBUG] [FML]: Injection complete
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin for CTMCorePlugin \{team.chisel.ctm.client.asm.CTMCorePlugin\}
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin CTMCorePlugin
+[15:20:38] [main/DEBUG] [FML]: Coremod plugin class CTMCorePlugin run successfully
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:20:38] [main/DEBUG] [FML]: Injecting coremod Techguns Core \{techguns.core.TechgunsFMLPlugin\} class transformers
+[15:20:38] [main/TRACE] [FML]: Registering transformer techguns.core.TechgunsASMTransformer
+[15:20:38] [main/DEBUG] [FML]: Injection complete
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin for Techguns Core \{techguns.core.TechgunsFMLPlugin\}
+[15:20:38] [main/DEBUG] [FML]: Running coremod plugin Techguns Core
+[15:20:38] [main/DEBUG] [FML]: Coremod plugin class TechgunsFMLPlugin run successfully
+[15:20:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:20:38] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:20:38] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:20:38] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[15:20:38] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #3
+[15:20:38] [main/DEBUG] [mixin]: Ending MixinEnvironment[INIT], applied 1 mixins
+[15:20:38] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
+[15:20:38] [main/DEBUG] [mixin]: Selecting config mixins.malisiscore.core.json
+[15:20:38] [main/DEBUG] [mixin]: Selecting config mixins.vanillafix.bugs.json
+[15:20:38] [main/DEBUG] [mixin]: Selecting config mixins.vanillafix.crashes.json
+[15:20:38] [main/DEBUG] [mixin]: Selecting config mixins.vanillafix.profiler.json
+[15:20:38] [main/DEBUG] [mixin]: Selecting config mixins.vanillafix.textures.json
+[15:20:38] [main/DEBUG] [mixin]: Selecting config mixins.laggoggles.json
+[15:20:38] [main/INFO] [LagGoggles-Boot]: I am located here: file:/home/raphael/.local/share/multimc/instances/Sounderia/.minecraft/mods/LagGoggles-FAT-1.12.2-4.9.jar!/cf/terminator/laggoggles/Main.class
+[15:20:38] [main/INFO] [LagGoggles-Boot]: I am designed for Forge version: 14.23.5.2838
+[15:20:38] [main/INFO] [LagGoggles-Boot]: Loading client classes
+[15:20:38] [main/INFO] [LagGoggles-Boot]: SpongeForge is not present!
+[15:20:38] [main/INFO] [LagGoggles-Boot]: We're running in a production environment.
+[15:20:38] [main/DEBUG] [mixin]: Selecting config mixins.phosphor.json
+[15:20:38] [main/DEBUG] [Phosphor Plugin]: Loading configuration
+[15:20:38] [main/DEBUG] [mixin]: Preparing mixins.malisiscore.core.json (10)
+[15:20:38] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[15:20:38] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    optifine.OptiFineClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.api.player.forge.RenderPlayerAPITransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.gregtech.common.asm.GTCETransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.blusunrize.immersiveengineering.common.asm.IEClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.techguns.core.TechgunsASMTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:38] [main/DEBUG] [mixin]: Transformer delegation list created with 26 entries
+[15:20:38] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:98]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[15:20:38] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:135]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[15:20:38] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/World to metadata cache
+[15:20:38] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:62]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[15:20:38] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/WorldServer to metadata cache
+[15:20:38] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[15:20:38] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[15:20:38] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[15:20:38] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/chunk/Chunk to metadata cache
+[15:20:38] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[15:20:38] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    optifine.OptiFineClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.api.player.forge.RenderPlayerAPITransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.gregtech.common.asm.GTCETransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.blusunrize.immersiveengineering.common.asm.IEClassTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Adding:    $wrapper.techguns.core.TechgunsASMTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[15:20:38] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:38] [main/DEBUG] [mixin]: Transformer delegation list created with 25 entries
+[15:20:38] [main/TRACE] [mixin]: Added class metadata for net/minecraft/item/ItemBlock to metadata cache
+[15:20:38] [main/TRACE] [mixin]: Added class metadata for net/minecraft/network/NetHandlerPlayServer to metadata cache
+[15:20:39] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[15:20:39] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/texture/TextureMap to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/BlockRendererDispatcher to metadata cache
+[15:20:39] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:482]: Successfully patched 2 arg RenderItem.RenderModel with ASM
+[15:20:39] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem2:370]: Successfully patched 2 arg RenderItem.RenderItem with ASM
+[15:20:39] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:301]: Successfully patched 4 arg RenderItem.RenderItem with ASM
+[15:20:39] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:425]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
+[15:20:39] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.techguns.core.TechgunsASMTransformer' was detected and will no longer process meta class data
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/RenderItem to metadata cache
+[15:20:39] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[15:20:39] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    optifine.OptiFineClassTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.api.player.forge.RenderPlayerAPITransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:39] [main/DEBUG] [mixin]:   Excluding: $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.gregtech.common.asm.GTCETransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.blusunrize.immersiveengineering.common.asm.IEClassTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[15:20:39] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Excluding: $wrapper.techguns.core.TechgunsASMTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[15:20:39] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:39] [main/DEBUG] [mixin]: Transformer delegation list created with 24 entries
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/BlockModelShapes to metadata cache
+[15:20:39] [main/DEBUG] [mixin]: Preparing mixins.vanillafix.bugs.json (13)
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/enchantment/EnchantmentHelper to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/EntityPlayerMP to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/InventoryPlayer to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/server/MinecraftServer to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/chunk/BlockStateContainer to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/EntityTrackerEntry to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/Minecraft to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/network/NetHandlerPlayClient to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/entity/EntityPlayerSP to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/server/integrated/IntegratedServer to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/EntityRenderer to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/ThreadDownloadImageData to metadata cache
+[15:20:39] [main/DEBUG] [mixin]: Preparing mixins.vanillafix.crashes.json (9)
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/crash/CrashReport to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/Util to metadata cache
+[15:20:39] [main/TRACE] [mixin]: Added class metadata for net/minecraft/crash/CrashReportCategory to metadata cache
+[15:20:40] [main/INFO] [signpic]: Patching TileEntity.getRenderBoundingBox (class: avj)
+[15:20:40] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer' was detected and will no longer process meta class data
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/tileentity/TileEntity to metadata cache
+[15:20:40] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[15:20:40] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    optifine.OptiFineClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.api.player.forge.RenderPlayerAPITransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.gregtech.common.asm.GTCETransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.blusunrize.immersiveengineering.common.asm.IEClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.techguns.core.TechgunsASMTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:40] [main/DEBUG] [mixin]: Transformer delegation list created with 23 entries
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/BufferBuilder to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher to metadata cache
+[15:20:40] [main/DEBUG] [mixin]: Preparing mixins.vanillafix.profiler.json (4)
+[15:20:40] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.zmaster587.advancedRocketry.asm.ClassTransformer' was detected and will no longer process meta class data
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/RenderGlobal to metadata cache
+[15:20:40] [main/DEBUG] [mixin]: Preparing mixins.vanillafix.textures.json (10)
+[15:20:40] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[15:20:40] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    optifine.OptiFineClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.api.player.forge.RenderPlayerAPITransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.gregtech.common.asm.GTCETransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.blusunrize.immersiveengineering.common.asm.IEClassTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[15:20:40] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: $wrapper.techguns.core.TechgunsASMTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[15:20:40] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:40] [main/DEBUG] [mixin]: Transformer delegation list created with 22 entries
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/BlockFluidRenderer to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/BlockModelRenderer to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/chunk/CompiledChunk to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/ItemRenderer to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/chunk/RenderChunk to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/entity/Render to metadata cache
+[15:20:40] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[15:20:40] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/texture/TextureAtlasSprite to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/client/model/pipeline/ForgeBlockModelRenderer to metadata cache
+[15:20:40] [main/DEBUG] [mixin]: Preparing mixins.laggoggles.json (8)
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Enabling: cf.terminator.laggoggles.mixin.MixinWorld
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Enabling: cf.terminator.laggoggles.mixin.MixinEntity
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Skipping: cf.terminator.laggoggles.mixin.MixinWorldServerSponge
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Enabling: cf.terminator.laggoggles.mixin.MixinWorldServerForge
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Enabling: cf.terminator.laggoggles.mixin.MixinEventBus
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Enabling: cf.terminator.laggoggles.mixin.MixinASMEventHandler
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Enabling: cf.terminator.laggoggles.mixin.MixinTileEntityRendererDispatcher
+[15:20:40] [main/INFO] [LagGoggles-Boot]: Enabling: cf.terminator.laggoggles.mixin.MixinRenderManager
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/eventhandler/EventBus to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/eventhandler/ASMEventHandler to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/entity/RenderManager to metadata cache
+[15:20:40] [main/DEBUG] [mixin]: Preparing mixins.phosphor.json (9)
+[15:20:40] [main/DEBUG] [Phosphor Plugin]: Disabled patch 'me.jellysquid.mods.phosphor.mixins.lighting.common.MixinChunk$Sponge' because we are in a standard Vanilla/Forge environment
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/chunk/storage/AnvilChunkLoader to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/gen/ChunkProviderServer to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/chunk/storage/ExtendedBlockStorage to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/network/play/server/SPacketChunkData to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/ProgressManager$ProgressBar to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/enchantment/EnchantmentHelper$IModifier to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/enchantment/EnchantmentHelper$ModifierDamage to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/enchantment/EnchantmentHelper$ModifierLiving to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/enchantment/EnchantmentHelper$HurtIterator to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/enchantment/EnchantmentHelper$DamageIterator to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/event/ClickEvent$Action to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/ModConfig$ProblemAction to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/ModConfig$Crashes to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/crash/CrashReportCategory$Entry to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/At$Shift to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/StateManager$IResettable to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/profiler/Profiler$Result to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/chunk/Chunk$EnumCreateEntityType to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/EnumFacing$Plane to metadata cache
+[15:20:40] [main/DEBUG] [mixin]: Prepared 61 mixins in 2.231 sec (36.6ms avg) (24ms load, 1857ms transform, 0ms plugin)
+[15:20:40] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:20:40] [main/DEBUG] [mixin]: Mixing client.MixinMinecraft from mixins.vanillafix.bugs.json into net.minecraft.client.Minecraft
+[15:20:40] [main/DEBUG] [mixin]: Renaming synthetic method lambda$saveScreenshotAsync$0(Ljava/io/File;Ljava/awt/image/BufferedImage;)V to md7ba1a5$lambda$saveScreenshotAsync$0$0 in mixins.vanillafix.bugs.json:client.MixinMinecraft
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/IThreadListener to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/profiler/ISnooperInfo to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/profiler/Profiler to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/texture/TextureManager to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/ScreenShotHelper to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for java/lang/Thread to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for java/lang/Runnable to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for org/apache/logging/log4j/Logger to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiIngame to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/TextComponentTranslation to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/TextComponentBase to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/ITextComponent to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for java/lang/Iterable to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiNewChat to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for java/io/File to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for java/lang/Comparable to metadata cache
+[15:20:40] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[15:20:40] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/client/ForgeHooksClient to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/client/event/ScreenshotEvent to metadata cache
+[15:20:40] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/eventhandler/Event to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for javax/imageio/ImageIO to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/TextComponentString to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/event/ClickEvent to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/text/Style to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/Boolean to metadata cache
+[15:20:41] [main/DEBUG] [mixin]: Mixing client.MixinMinecraft from mixins.vanillafix.crashes.json into net.minecraft.client.Minecraft
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/IPatchedMinecraft to metadata cache
+[15:20:41] [main/DEBUG] [mixin]: Renaming synthetic method lambda$showWarningScreen$4(Lnet/minecraft/crash/CrashReport;)V to md7ba1a5$lambda$showWarningScreen$4$1 in mixins.vanillafix.crashes.json:client.MixinMinecraft
+[15:20:41] [main/DEBUG] [mixin]: Renaming synthetic method lambda$checkForF3C$3()Ljava/lang/Object; to md7ba1a5$lambda$checkForF3C$3$2 in mixins.vanillafix.crashes.json:client.MixinMinecraft
+[15:20:41] [main/DEBUG] [mixin]: Renaming synthetic method lambda$checkForF3C$2()V to md7ba1a5$lambda$checkForF3C$2$3 in mixins.vanillafix.crashes.json:client.MixinMinecraft
+[15:20:41] [main/DEBUG] [mixin]: Renaming synthetic method lambda$addInfoToCrash$1()Ljava/lang/String; to md7ba1a5$lambda$addInfoToCrash$1$4 in mixins.vanillafix.crashes.json:client.MixinMinecraft
+[15:20:41] [main/DEBUG] [mixin]: Renaming synthetic method lambda$addInfoToCrash$0()Ljava/lang/String; to md7ba1a5$lambda$addInfoToCrash$0$5 in mixins.vanillafix.crashes.json:client.MixinMinecraft
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/ReportedException to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/CrashUtils to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/security/ProtectionDomain to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/security/CodeSource to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/net/URL to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/String to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/FolderResourcePack to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/AbstractResourcePack to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/IResourcePack to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/FileResourcePack to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/io/Closeable to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/AutoCloseable to metadata cache
+[15:20:41] [main/INFO] [STDOUT]: [mchorse.mclib.core.McLibCMClassTransformer:transform:17]: McLib: Transforming SimpleReloadableResourceManager class (cev)
+[15:20:41] [main/INFO] [STDOUT]: [mchorse.mclib.core.transformers.SimpleReloadableResourceManagerTransformer:processMethod:43]: McLib: successfully patched getResource!
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/SimpleReloadableResourceManager to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/IReloadableResourceManager to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/IResourceManager to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/IResourceManagerReloadListener to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/texture/ITickable to metadata cache
+[15:20:41] [main/DEBUG] [Mekanism KeybindingMigrationHelper]: Looking for func_189988_a(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+[15:20:41] [main/INFO] [Mekanism KeybindingMigrationHelper]: Patching GameSettings.datafix
+[15:20:41] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.mekanism.coremod.KeybindingMigrationHelper' was detected and will no longer process meta class data
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/settings/GameSettings to metadata cache
+[15:20:41] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[15:20:41] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    optifine.OptiFineClassTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.api.player.forge.RenderPlayerAPITransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.me.modmuss50.splashlogofix.asm.ClassTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: $wrapper.zmaster587.advancedRocketry.asm.ClassTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: $wrapper.com.kamesuta.mc.signpic.asm.SignPictureTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.mchorse.mclib.core.McLibCMClassTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.gregtech.common.asm.GTCETransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.blusunrize.immersiveengineering.common.asm.IEClassTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[15:20:41] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: $wrapper.techguns.core.TechgunsASMTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[15:20:41] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[15:20:41] [main/DEBUG] [mixin]: Transformer delegation list created with 21 entries
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/resources/LanguageManager to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/ResourceLocation to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/FontRenderer to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/audio/SoundHandler to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/ITickable to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/client/SplashProgress to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/GuiInitErrorScreen to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/GuiProblemScreen to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiScreen to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/Gui to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiYesNoCallback to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/System to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/lwjgl/opengl/Display to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/GlStateManager to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/shader/Framebuffer to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/ScaledResolution to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/lwjgl/input/Mouse to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/GuiCrashScreen to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/StateManager to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/network/NetworkManager to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/Queue to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/utils/GlUtil to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/lwjgl/input/Keyboard to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for com/google/common/util/concurrent/ListenableFutureTask to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/concurrent/FutureTask to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/concurrent/RunnableFuture to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/concurrent/Future to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for com/google/common/util/concurrent/ListenableFuture to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/ModConfig to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/toasts/IToast to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/toasts/GuiToast to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/ProblemToast to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/crashes/GuiWarningScreen to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/CharSequence to metadata cache
+[15:20:41] [main/DEBUG] [mixin]: Mixing client.MixinMinecraft from mixins.vanillafix.profiler.json into net.minecraft.client.Minecraft
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/profiler/IPatchedMinecraftServer to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/ArrayList to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/AbstractList to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/Cloneable to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/RandomAccess to metadata cache
+[15:20:41] [main/DEBUG] [mixin]: Mixing client.MixinMinecraft from mixins.phosphor.json into net.minecraft.client.Minecraft
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for me/jellysquid/mods/phosphor/api/ILightingEngineProvider to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for me/jellysquid/mods/phosphor/api/ILightingEngine to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/awt/image/BufferedImage to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/multiplayer/WorldClient to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/crash/ICrashReportDetail to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for org/dimdev/vanillafix/VanillaFix to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/util/concurrent/Callable to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/Integer to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiGameOver to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiMainMenu to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/Number to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/yggdrasil/YggdrasilAuthenticationService to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/HttpAuthenticationService to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/BaseAuthenticationService to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/lang/InterruptedException to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/minecraft/MinecraftSessionService to metadata cache
+[15:20:41] [main/TRACE] [mixin]: Added class metadata for java/awt/Image to metadata cache
+[15:20:42] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:98]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[15:20:42] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:135]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[15:20:42] [main/DEBUG] [mixin]: Mixing MixinClientNotif$MixinWorld from mixins.malisiscore.core.json into net.minecraft.world.World
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/clientnotif/ClientNotificationManager to metadata cache
+[15:20:42] [main/DEBUG] [mixin]: Mixing MixinChunkCollision$MixinWorld from mixins.malisiscore.core.json into net.minecraft.world.World
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/Point to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for org/apache/commons/lang3/tuple/Pair to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for java/util/Map$Entry to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/chunkcollision/ChunkCollision to metadata cache
+[15:20:42] [main/DEBUG] [mixin]: Mixing MixinWorld from mixins.vanillafix.profiler.json into net.minecraft.world.World
+[15:20:42] [main/DEBUG] [mixin]: Renaming synthetic method lambda$tileEntityUpdate$2(Lnet/minecraft/util/ITickable;)Ljava/lang/String; to md7ba1a5$lambda$tileEntityUpdate$2$0 in mixins.vanillafix.profiler.json:MixinWorld
+[15:20:42] [main/DEBUG] [mixin]: Renaming synthetic method lambda$updateEntity$1(Lnet/minecraft/entity/Entity;)Ljava/lang/String; to md7ba1a5$lambda$updateEntity$1$1 in mixins.vanillafix.profiler.json:MixinWorld
+[15:20:42] [main/DEBUG] [mixin]: Renaming synthetic method lambda$entityOnUpdate$0(Lnet/minecraft/entity/Entity;)Ljava/lang/String; to md7ba1a5$lambda$entityOnUpdate$0$2 in mixins.vanillafix.profiler.json:MixinWorld
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/capabilities/ICapabilitySerializable to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/capabilities/ICapabilityProvider to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/util/INBTSerializable to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/EntityList to metadata cache
+[15:20:42] [main/DEBUG] [mixin]: Mixing common.MixinWorld from mixins.phosphor.json into net.minecraft.world.World
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for me/jellysquid/mods/phosphor/mod/world/lighting/LightingEngine to metadata cache
+[15:20:42] [main/DEBUG] [mixin]: Mixing MixinWorld from mixins.laggoggles.json into net.minecraft.world.World
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for java/lang/Long to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for cf/terminator/laggoggles/profiler/ProfileManager to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for java/util/concurrent/atomic/AtomicBoolean to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/WorldProvider to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for cf/terminator/laggoggles/profiler/TimingManager to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/IBlockAccess to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/BlockPos to metadata cache
+[15:20:42] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[15:20:42] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/Block to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/Vec3d to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/RayTraceResult to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for java/util/function/Supplier to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/EnumSkyBlock to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for java/util/Map to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for java/util/IdentityHashMap to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for java/util/Set to metadata cache
+[15:20:42] [main/INFO] [LagGoggles-Boot]: Applied mixin: cf.terminator.laggoggles.mixin.MixinWorld
+[15:20:42] [main/INFO] [signpic]: Patching GuiScreen.handleInput (class: blk)
+[15:20:42] [main/DEBUG] [mixin]: Mixing MixinEntity from mixins.vanillafix.bugs.json into net.minecraft.entity.Entity
+[15:20:42] [main/DEBUG] [mixin]: Mixing MixinEntity from mixins.laggoggles.json into net.minecraft.entity.Entity
+[15:20:42] [main/DEBUG] [mixin]: Mixing MixinEntity from mixins.vanillafix.crashes.json into net.minecraft.entity.Entity
+[15:20:42] [main/DEBUG] [mixin]: Renaming synthetic method lambda$onAddEntityCrashInfo$0()Ljava/lang/String; to md7ba1a5$lambda$onAddEntityCrashInfo$0$0 in mixins.vanillafix.crashes.json:MixinEntity
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTTagCompound to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTBase to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/command/ICommandSender to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/state/IBlockState to metadata cache
+[15:20:42] [main/INFO] [LagGoggles-Boot]: Applied mixin: cf.terminator.laggoggles.mixin.MixinEntity
+[15:20:42] [main/DEBUG] [mixin]: Mixing client.MixinEntityPlayerSP from mixins.vanillafix.bugs.json into net.minecraft.client.entity.EntityPlayerSP
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/entity/AbstractClientPlayer to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/EntityPlayer to metadata cache
+[15:20:42] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/EntityLivingBase to metadata cache
+[15:20:43] [main/DEBUG] [mixin]: Mixing MixinUtil from mixins.vanillafix.crashes.json into net.minecraft.util.Util
+[15:20:43] [main/TRACE] [mixin]: Added class metadata for java/util/concurrent/ExecutionException to metadata cache
+[15:20:43] [main/ERROR] [LaunchWrapper]: Unable to launch
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+Caused by: java.awt.AWTError: Assistive Technology not found: org.GNOME.Accessibility.AtkWrapper
+	at java.awt.Toolkit.loadAssistiveTechnologies(Toolkit.java:807) ~[?:1.8.0_275]
+	at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:886) ~[?:1.8.0_275]
+	at org.lwjgl.LinuxSysImplementation.<clinit>(LinuxSysImplementation.java:50) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
+	at org.lwjgl.Sys.createImplementation(Sys.java:131) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
+	at org.lwjgl.Sys.<clinit>(Sys.java:116) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
+	at net.minecraft.client.Minecraft.func_71386_F(Minecraft.java:2984) ~[bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 14 more
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:199]: Failed to start Minecraft:
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: java.lang.reflect.InvocationTargetException
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launch:231]: 	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: Caused by: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: 	at java.lang.Runtime.exit(Runtime.java:107)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: 	at java.lang.System.exit(System.java:973)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[15:20:43] [main/INFO] [STDERR]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:200]: 	... 8 more
+[15:20:43] [main/INFO] [STDOUT]: [org.multimc.EntryPoint:main:37]: Exiting with -1
+[15:20:43] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[15:20:43] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
+[15:20:43] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
+[15:20:43] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Runtime.exit(Runtime.java:107)
+[15:20:43] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.System.exit(System.java:973)
+[15:20:43] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.multimc.EntryPoint.main(EntryPoint.java:38)
