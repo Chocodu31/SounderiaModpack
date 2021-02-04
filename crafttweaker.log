@@ -1,26 +1,26 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-technium
-BigAl607
-Jonathan McManus
-DreamThorn
-NickT
-Robijnvogel
-Genryu
-Ivy_
-otakup0pe
-Pongo Sapiens
-Spool
-Peregrinus11
 realTIMematrix
 quaternary
 IDroid
+BigAl607
+Pongo Sapiens
+Jonathan McManus
+Genryu
 Barrier
+Robijnvogel
+Spool
+Ivy_
+Peregrinus11
+DreamThorn
+otakup0pe
+NickT
 AdaraChristine
+technium
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
